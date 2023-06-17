@@ -35,6 +35,7 @@
     height: 100%;
     background-color: #00000094;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -46,7 +47,23 @@
     width: 100%;
     height: 100vh;
     position: fixed;
-    background-image: url('./img/gambar-3d-1.jpg');
+    background-image: url('./img/blue-mountains-famous-tourism-scenery-lijiang.jpg');
+}
+.hitam-blur span{
+    color:rgb(146, 255, 146);
+}
+.hitam-blur p{
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.hitam-blur button{
+    border:1px solid;
+    width:90px;
+    height:25px;
+    margin: 5px 0;
+    color:#fff;
+    background-color:blue;
 }
 
 
