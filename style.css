@@ -7,7 +7,7 @@
    display:flex;
    align-items: center;
    justify-content: space-between;
-   background-color: rgb(204, 204, 21);
+   background-color: rgb(0, 211, 200);
    padding: 0 50px;
 }
 .navbar ul{
@@ -22,6 +22,10 @@
     color:#000000;
     padding:10px;
     font-size:20px;
+}
+.navbar ul li a:hover{
+    color:#fff;
+    transition: .3s;
 }
 .navbar li{
     list-style: none;
@@ -50,7 +54,10 @@
     background-image: url('./img/blue-mountains-famous-tourism-scenery-lijiang.jpg');
 }
 .hitam-blur span{
-    color:rgb(146, 255, 146);
+    color:rgb(0, 195, 255);
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 .hitam-blur p{
     color:#fff;
@@ -64,6 +71,7 @@
     margin: 5px 0;
     color:#fff;
     background-color:blue;
+    border:none;
 }
 
 
