@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin:0;
+}
+.navbar{    
+    height: 70px;
+   display:flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: rgb(204, 204, 21);
+   padding: 0 50px;
+}
+.navbar ul{
+    display:flex;
+    gap:10px;
+}
+.navbar ul li a{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color:#000000;
+    padding:10px;
+    font-size:20px;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar h1{
+    width:100px;
+}
+.hitam-blur{
+    width: 100%;
+    border: 1px solid;
+    height: 100%;
+    background-color: #00000094;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hitam-blur h1{
+    color: white;
+}
+.img{
+    border: 1px solid;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-image: url('./img/gambar-3d-1.jpg');
+}
+
+
