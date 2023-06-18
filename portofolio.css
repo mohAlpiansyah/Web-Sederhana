@@ -1,0 +1,123 @@
+*{
+    padding:0;
+    margin:0;
+}
+.porto{
+    height:70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 211, 200);
+    padding:0 50px;
+}
+ul{
+    display:flex;
+    list-style: none;
+}
+.porto ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    padding:15px;
+    font-size:20px;
+    color:#000;
+}
+.portofolio{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding:50px 0;
+    flex-direction: column;
+}
+.portofolio h1{
+    width:450px;
+    margin-top:25px;
+    margin-right:200px;
+    
+}
+.portofolio p{
+    /* padding-top:90px;  */
+    margin-bottom:200px;
+    margin-right:290px;
+    padding-top:50px;
+    width:320px;
+    height:100px;
+    font-size:1.1em;
+}
+.portofolio span{
+    color:rgb(0, 211, 200);
+    font-size: 1.1em;
+}
+.img-anime{
+    display:flex;
+    align-items: center;
+    justify-content: end;
+    height:10px;
+}
+.img-anime img{
+    display:flex;
+    align-items: center;
+    justify-content: end;
+    padding-right:45px;
+    margin-right:150px;
+    margin-bottom:600px;
+    width:250px;
+    height:250px;
+}
+
+.lorem p{
+    color:white;
+}
+.wrapper{
+    
+     display:flex; 
+    align-items: center;
+   justify-content: center; 
+   padding:0 15px 0 0;
+   padding-bottom:25px;
+   margin-bottom:15px;
+   height:20px;
+}
+.wrapper h1{
+    
+    display:flex; 
+    align-items:center;
+    justify-content: center;
+    font-size:2em;
+    color:rgb(0, 211, 200);
+    padding:20px;
+    height:5px;
+}
+.kumpul-img{
+    
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.kumpul-img img{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width:250px;
+    height:250px;
+    padding:15px;
+    border-radius:50%;
+    margin-bottom:20px;
+
+}
+.kumpul-img2{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.kumpul-img2 img{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:250px;
+    height:250px;
+    padding:14px;
+    border-radius:50%;
+    margin-bottom:20px;
+}

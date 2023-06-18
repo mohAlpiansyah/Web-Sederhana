@@ -28,8 +28,7 @@
     color:#fff;
     transition: .3s;
 }
-.container h1{
-}
+
 .about{
     display:flex;
     align-items: center;
@@ -51,10 +50,11 @@
 .pe p{
     color:#000;
     width:320px;
-    font-size:1.1em;
+    font-size:1.5em;
+    padding-left:50px;
 }
 .pe img{
-    width:350px;
-    height:350px;
-    padding-left:15px;
+    width:400px;
+    height:400px;
+    padding-left:120px;
 }
